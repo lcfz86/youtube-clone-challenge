@@ -1,0 +1,350 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Welcome to Youtube</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      #background{
+        background-color: #242526;
+      }
+
+      .inLine{
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .inBox-horizontal{
+        display: flex;
+        justify-content: space-evenly;
+
+      }
+
+      .inBox{
+        color: black;
+        background-color: white;
+        padding-top: 5px;
+        padding-right: 15px;
+        padding-bottom: 5px;
+        padding-left: 15px;
+        border-radius: 15px;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 60%;
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+
+      .header{
+        padding: 15px;
+      }
+
+      .formEditor{
+        margin-top: 20px;
+      }
+
+      .signInPadding{
+        padding-bottom: 5px;
+        margin-left: 5px;
+      }
+
+      .leftSignIn{
+        padding-bottom: 5px;
+        margin-left: 5px;
+      }
+
+      #leftBar{
+       display: flex;
+       /* justify-content: space-between; */
+       flex-direction: column;
+       width: 300px;
+      }
+
+     #split{
+       display: flex;
+       justify-content: space-start;
+     }
+
+     #iconTextSplit{
+       display: flex;
+       justify-content: space-start;
+       align-items: center;
+     }
+
+     .leftBar-Container{
+       display: flex;
+       /* justify-content: space-between; */
+       align-items: center;
+     }
+
+      .leftBar-Text{
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        color: white;
+        padding: 15px;
+      }
+
+      .leftBar-Icon{
+        padding-left: 15px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .signIn-Partition{
+        /* display: flex;
+        justify-content: center; */
+        color: white;
+        padding-left: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      #right-Container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: #1E1E1E;
+      }
+
+      #rightCon-Video{
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .rightVideo{
+        width: 24%;
+      }
+
+      .textColumn{
+        display: flex;
+        flex-direction: column;
+      }
+
+      .rightImg{
+        margin-top: 25px;
+        margin-right: 15px;
+        margin-bottom: 15px;
+        margin-left: 25px;
+        color: white;
+      }
+
+      .rightIcon{
+        margin-bottom: 35px;
+        margin-left: 25px;
+        border-radius: 50%;
+      }
+
+      .rightText{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 75%;
+        text-decoration: none;
+        color: white;
+        padding-left: 15px;
+      }
+
+    </style>
+  </head>
+  <body id='background'>
+    <div>
+      <div class='inLine'>
+        <div>
+          <a href='#'><img src='Option3L.png' width='20' height='15' class='header'></a>
+          <img src='Youtube2.png' width='100' height='20' class='header'>
+        </div>
+        <form action='#'>
+          <input type='text' name='Search' class='formEditor'>
+          <input type='submit' value='Search' class='formEditor'>
+        </form>
+        <div>
+          <a href='#'><img src='Option9S.png' width='20' height='20' class='header'></a>
+          <a href='#'><img src='Option3C.png' width='6' height='20' class='header'></a>
+          <a href='#'><img src='SignIn.png' width='100' height='40' class='signInPadding'></a>
+        </div>
+      </div>
+      <hr>
+      <!-- Left Bar -->
+      <div id='split'>
+        <div id='leftBar'>
+          <div class='leftBar-Container'>
+            <img src='Option9S.png' width='20' height='20' class='leftBar-Icon'>
+            <p><b><a href='#' class='leftBar-Text'>Home</a></b></p>
+          </div>
+          <div class='leftBar-Container'>
+            <img src='Option9S.png' width='20' height='20' class='leftBar-Icon'>
+            <p><b><a href='#' class='leftBar-Text'>Explore</a></b></p>
+          </div>
+          <div class='leftBar-Container'>
+            <img src='Option9S.png' width='20' height='20' class='leftBar-Icon'>
+            <p><b><a href='#' class='leftBar-Text'>Subscription</a></b></p>
+          </div>
+          <hr>
+          <div class='leftBar-Container'>
+            <img src='Option9S.png' width='20' height='20' class='leftBar-Icon'>
+            <p><b><a href='#' class='leftBar-Text'>Library</a></b></p>
+          </div>
+          <div class='leftBar-Container'>
+            <img src='Option9S.png' width='20' height='20' class='leftBar-Icon'>
+            <p><b><a href='#' class='leftBar-Text'>History</a></b></p>
+          </div>
+          <hr>
+          <div class='signIn-Partition'>
+            <p class='leftBar-Text'>Sign in to like videos, comments, and subscribe.</p>
+            <a href='#'><img src='SignIn.png' width='100' height='40' class='leftSignIn'></a>
+          </div>
+          <hr>
+          <a class='leftBar-Icon'>BEST OF YOUTUBE</a>
+          <div class='leftBar-Container'>
+            <img src='Option9S.png' width='20' height='20' class='leftBar-Icon'>
+            <p><b><a href='#' class='leftBar-Text'>Music</a></b></p>
+          </div>
+          <div class='leftBar-Container'>
+            <img src='Option9S.png' width='20' height='20' class='leftBar-Icon'>
+            <p><b><a href='#' class='leftBar-Text'>Sport</a></b></p>
+          </div>
+          <div class='leftBar-Container'>
+            <img src='Option9S.png' width='20' height='20' class='leftBar-Icon'>
+            <p><b><a href='#' class='leftBar-Text'>Gaming</a></b></p>
+          </div>
+          <div class='leftBar-Container'>
+            <img src='Option9S.png' width='20' height='20' class='leftBar-Icon'>
+            <p><b><a href='#' class='leftBar-Text'>News</a></b></p>
+          </div>
+          <div class='leftBar-Container'>
+            <img src='Option9S.png' width='20' height='20' class='leftBar-Icon'>
+            <p><b><a href='#' class='leftBar-Text'>Live</a></b></p>
+          </div>
+          <div class='leftBar-Container'>
+            <img src='Option9S.png' width='20' height='20' class='leftBar-Icon'>
+            <p><b><a href='#' class='leftBar-Text'>360 Video</a></b></p>
+          </div>
+          <hr>
+          <div class='leftBar-Container'>
+            <img src='Option9S.png' width='20' height='20' class='leftBar-Icon'>
+            <p><b><a href='#' class='leftBar-Text'>Browse Channels</a></b></p>
+          </div>
+          <hr>
+          <a class='leftBar-Icon'>MORE FROM YOUTUBE</a>
+          <div class='leftBar-Container'>
+            <img src='Option9S.png' width='20' height='20' class='leftBar-Icon'>
+            <p><b><a href='#' class='leftBar-Text'>Youtube Premium</a></b></p>
+          </div>
+          <div class='leftBar-Container'>
+            <img src='Option9S.png' width='20' height='20' class='leftBar-Icon'>
+            <p><b><a href='#' class='leftBar-Text'>Live</a></b></p>
+          </div>
+          <hr>
+          <div class='leftBar-Container'>
+            <img src='Option9S.png' width='20' height='20' class='leftBar-Icon'>
+            <p><b><a href='#' class='leftBar-Text'>Setting</a></b></p>
+          </div>
+        </div>
+        <div id='right-Container'>
+          <div class='inBox-horizontal'>
+            <p><b><a href='#' class='inBox'>All</a></b></p>
+            <p><b><a href='#' class='inBox'>Playlist</a></b></p>
+            <p><b><a href='#' class='inBox'>Chill-out music</a></b></p>
+            <p><b><a href='#' class='inBox'>Music</a></b></p>
+            <p><b><a href='#' class='inBox'>Upin & Ipin</a></b></p>
+            <p><b><a href='#' class='inBox'>U.K's</a></b></p>
+            <p><b><a href='#' class='inBox'>Love songs</a></b></p>
+            <p><b><a href='#' class='inBox'>Background music</a></b></p>
+            <p><b><a href='#' class='inBox'>Live</a></b></p>
+            <p><b><a href='#' class='inBox'>Mr.Bean</a></b></p>
+            <p><b><a href='#' class='inBox'>BTS</a></b></p>
+            <p><b><a href='#' class='inBox'>Mukbang</a></b></p>
+            <p><b><a href='#' class='inBox'>Cakes</a></b></p>
+            <p><b><a href='#' class='inBox'>Eating</a></b></p>
+            <p><b><a href='#' class='inBox'>Children's Music</a></b></p>
+            <p><b><a href='#' class='inBox'>Trailers</a></b></p>
+            <p><b><a href='#' class='inBox'>Variety shows</a></b></p>
+            <p><b><a href='#' class='inBox'>Balls</a></b></p>
+            <p><b><a href='#' class='inBox'>Recently Uploaded</a></b></p>
+          </div>
+          <div>
+            <img src='AdsImg.png' width='1535' height='250' class='rightImg'>
+          </div>
+          <div id='rightCon-Video'>
+            <div class='rightVideo'>
+              <img src='VideoImg.png' width='365' height='200' class='rightImg'>
+              <div id='iconTextSplit'>
+                <img src='Option9S.png' width='30' height='30' class='rightIcon'>
+                <div class='textColumn'>
+                  <p><b><a href='#' class='rightText'>[ Title ]</a></b></p>
+                  <p><b><a href='#' class='rightText'>[ Channel Name ]</a></b></p>
+                </div>
+              </div>
+            </div>
+            <div class='rightVideo'>
+              <img src='VideoImg.png' width='365' height='200' class='rightImg'>
+              <div id='iconTextSplit'>
+                <img src='Option9S.png' width='30' height='30' class='rightIcon'>
+                <div class='textColumn'>
+                  <p><b><a href='#' class='rightText'>[ Title ]</a></b></p>
+                  <p><b><a href='#' class='rightText'>[ Channel Name ]</a></b></p>
+                </div>
+              </div>
+            </div>
+            <div class='rightVideo'>
+              <img src='VideoImg.png' width='365' height='200' class='rightImg'>
+              <div id='iconTextSplit'>
+                <img src='Option9S.png' width='30' height='30' class='rightIcon'>
+                <div class='textColumn'>
+                  <p><b><a href='#' class='rightText'>[ Title ]</a></b></p>
+                  <p><b><a href='#' class='rightText'>[ Channel Name ]</a></b></p>
+                </div>
+              </div>
+            </div>
+            <div class='rightVideo'>
+              <img src='VideoImg.png' width='365' height='200' class='rightImg'>
+              <div id='iconTextSplit'>
+                <img src='Option9S.png' width='30' height='30' class='rightIcon'>
+                <div class='textColumn'>
+                  <p><b><a href='#' class='rightText'>[ Title ]</a></b></p>
+                  <p><b><a href='#' class='rightText'>[ Channel Name ]</a></b></p>
+                </div>
+              </div>
+            </div>
+            <div class='rightVideo'>
+              <img src='VideoImg.png' width='365' height='200' class='rightImg'>
+              <div id='iconTextSplit'>
+                <img src='Option9S.png' width='30' height='30' class='rightIcon'>
+                <div class='textColumn'>
+                  <p><b><a href='#' class='rightText'>[ Title ]</a></b></p>
+                  <p><b><a href='#' class='rightText'>[ Channel Name ]</a></b></p>
+                </div>
+              </div>
+            </div>
+            <div class='rightVideo'>
+              <img src='VideoImg.png' width='365' height='200' class='rightImg'>
+              <div id='iconTextSplit'>
+                <img src='Option9S.png' width='30' height='30' class='rightIcon'>
+                <div class='textColumn'>
+                  <p><b><a href='#' class='rightText'>[ Title ]</a></b></p>
+                  <p><b><a href='#' class='rightText'>[ Channel Name ]</a></b></p>
+                </div>
+              </div>
+            </div>
+            <div class='rightVideo'>
+              <img src='VideoImg.png' width='365' height='200' class='rightImg'>
+              <div id='iconTextSplit'>
+                <img src='Option9S.png' width='30' height='30' class='rightIcon'>
+                <div class='textColumn'>
+                  <p><b><a href='#' class='rightText'>[ Title ]</a></b></p>
+                  <p><b><a href='#' class='rightText'>[ Channel Name ]</a></b></p>
+                </div>
+              </div>
+            </div>
+            <div class='rightVideo'>
+              <img src='VideoImg.png' width='365' height='200' class='rightImg'>
+              <div id='iconTextSplit'>
+                <img src='Option9S.png' width='30' height='30' class='rightIcon'>
+                <div class='textColumn'>
+                  <p><b><a href='#' class='rightText'>[ Title ]</a></b></p>
+                  <p><b><a href='#' class='rightText'>[ Channel Name ]</a></b></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
